@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		AC26D54420A3B28B007BA949 /* MIPS Simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MIPS Simulator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC26D54720A3B28B007BA949 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC26D54E20A3B343007BA949 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				AC26D54720A3B28B007BA949 /* main.cpp */,
+				AC26D54E20A3B343007BA949 /* input.txt */,
 			);
 			path = "MIPS Simulator";
 			sourceTree = "<group>";
@@ -218,6 +220,7 @@
 		AC26D54C20A3B28B007BA949 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -225,6 +228,7 @@
 		AC26D54D20A3B28B007BA949 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -248,6 +252,7 @@
 				AC26D54D20A3B28B007BA949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
